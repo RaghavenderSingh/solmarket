@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="w-full fixed top-0 inset-x-0 z-50 bg-white dark:bg-gray-900 ">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center py-3 space-y-4 md:space-y-0">
           <div className="flex justify-between items-center w-full md:w-auto">
             <a href="/" className="flex items-center space-x-2">
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
                 </NavLink>
                 <NavLink href="/#pricing">
                   <span className="flex justify-center">
-                    <Flag />
+                    <Flag /> 
                   </span>
                   <span>Market</span>
                 </NavLink>
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
             </NavigationMenu>
           </div>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center mr-3 space-x-4">
             <Button variant="ghost" asChild>
               <a href="/login">Login</a>
             </Button>
